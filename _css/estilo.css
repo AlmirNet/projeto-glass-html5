@@ -1,12 +1,16 @@
 @charset"UTF-8";
 /* Aprendendo a montar um site do zero a hospedagem de site  */
 body{
-    background-color: white;
+    background-color: #dddddd;
     color: rgba(0, 0, 0, 1);
 }
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+div#interface {
+    width: 400px;
 }
 
 figure.foto-legenda{
@@ -55,9 +59,23 @@ nav#menu li{
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
-    margin: 2px
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
 }
 
 nav#menu h1{
     display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
 }
